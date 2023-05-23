@@ -1,0 +1,25 @@
+.supportingText {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+  background-color: aliceblue;
+  color: #252525;
+  position: relative;
+
+  &-left {
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center;
+
+    & h2 {
+      font-size: 3.5em;
+      font-weight: 700;
+    }
+  }
+
+  &-right p {
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,47 @@
+.welcome {
+  height: 100vh;
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  &-container {
+    width: 40%;
+    height: 450px;
+
+    & h1 {
+      font-size: 6em;
+      margin: 3px;
+      color: yellow;
+    }
+
+    & p {
+      font-size: 1.5em;
+      color: whitesmoke;
+    }
+
+    &_buttons {
+      width: 80%;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      & button {
+        height: 95%;
+        width: 200px;
+        background: transparent;
+        color: yellow;
+        border: 2px solid yellow;
+        font-weight: 700;
+      }
+
+      & :nth-child(1) {
+        background-color: yellow;
+        color: #252525;
+      }
+    }
+  }
+}

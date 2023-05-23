@@ -1,0 +1,49 @@
+.subscribe {
+  height: 70vh;
+  background-color: yellow;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & h1 {
+    font-size: 3.5em;
+    margin: 0;
+  }
+
+  & p {
+    font-weight: 700;
+  }
+
+  & form {
+    margin-bottom: 30px;
+
+    & input {
+      height: 50px;
+      width: 350px;
+      border: none;
+      margin-right: 20px;
+
+      &::placeholder {
+        font-size: 1.3em;
+        font-weight: 700;
+        padding-left: 20px;
+      }
+    }
+
+    & button {
+      width: 200px;
+      height: 50px;
+      border: 2px solid white;
+      background: transparent;
+      font-weight: 700;
+      color: black;
+    }
+  }
+
+  & span {
+    font-size: .8em;
+    font-weight: 700;
+  }
+}
