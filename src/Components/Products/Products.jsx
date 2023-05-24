@@ -12,7 +12,7 @@ export const Products = memo(() => {
         <p>Support the movement by wearing the toughest gear in the wild.<br/>
         Represent the chapter and yourself in our latest selected gear.</p>
 
-        <a href="#">BROWSER OUR SHOP</a>
+        <span>BROWSER OUR SHOP</span>
       </div>
 
       <div className='products-right'>
