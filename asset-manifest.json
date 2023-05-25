@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dleymatjie.github.io/vigor_crossfit/static/css/main.e56b0d90.css",
+    "main.js": "/dleymatjie.github.io/vigor_crossfit/static/js/main.2d9bc76c.js",
+    "static/media/4@2x.png": "/dleymatjie.github.io/vigor_crossfit/static/media/4@2x.c8d0abecedbce8221d04.png",
+    "static/media/3@2x.png": "/dleymatjie.github.io/vigor_crossfit/static/media/3@2x.9aec982e7b39cd930169.png",
+    "static/media/Special@2x.png": "/dleymatjie.github.io/vigor_crossfit/static/media/Special@2x.6c7c9cb468a5b36953fd.png",
+    "static/media/battle-ropes-1.jpg": "/dleymatjie.github.io/vigor_crossfit/static/media/battle-ropes-1.d335ef8dadf714aaa7f2.jpg",
+    "static/media/vigor-gym-instructors-1.jpg": "/dleymatjie.github.io/vigor_crossfit/static/media/vigor-gym-instructors-1.d27c325d38304ac2bf16.jpg",
+    "static/media/5.png": "/dleymatjie.github.io/vigor_crossfit/static/media/5.5ae6ebc282dce4230d63.png",
+    "static/media/4.png": "/dleymatjie.github.io/vigor_crossfit/static/media/4.955f7bf9cb82c369b699.png",
+    "static/media/9.png": "/dleymatjie.github.io/vigor_crossfit/static/media/9.67726ba84aaed0f5b9e6.png",
+    "static/media/13.png": "/dleymatjie.github.io/vigor_crossfit/static/media/13.bb3ec6ee2d1d6c735938.png",
+    "static/media/icn_basket.svg": "/dleymatjie.github.io/vigor_crossfit/static/media/icn_basket.9d73ebe89446b571f6471b8cae3ee720.svg",
+    "index.html": "/dleymatjie.github.io/vigor_crossfit/index.html",
+    "main.e56b0d90.css.map": "/dleymatjie.github.io/vigor_crossfit/static/css/main.e56b0d90.css.map",
+    "main.2d9bc76c.js.map": "/dleymatjie.github.io/vigor_crossfit/static/js/main.2d9bc76c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e56b0d90.css",
+    "static/js/main.2d9bc76c.js"
+  ]
+}
