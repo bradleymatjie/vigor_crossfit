@@ -6,7 +6,7 @@ import rightArrow from '../../VIGOR HOME/Icons/icn_arrow_big_R_Hover@2x.png';
 import leftArrow from '../../VIGOR HOME/Icons/icn_arrow_big_L_Default@2x.png';
 
 export const Carousel = memo(() => {
-  
+
   return (
     <section className='carousel' style={{backgroundImage: `url(${bgImage})`}}>
       <div className='carousel-left'>

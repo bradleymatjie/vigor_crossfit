@@ -2,11 +2,14 @@ import { memo } from 'react';
 import './Header.scss';
 
 import cart from '../../VIGOR HOME/Icons/icn_basket.svg';
+import logo from '../../VIGOR HOME/Logo/White.png';
 
 export const Header = memo(() => {
  return (
   <header className='header'>
-    <div className='header-logo'><span>VIGOR</span> CROSSFIT</div>
+    <div className='header-logo'>
+      <img src={logo} alt="logo" />
+    </div>
     <nav>
       <ul className='header-navItems'>
         <li>HOME</li>

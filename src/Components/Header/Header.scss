@@ -37,11 +37,16 @@
     color: white;
     padding-right: 50px;
 
+    & > :first-child {
+      color: yellow;
+      border-bottom: 2px solid yellow;
+    }
+
     & li {
       cursor: pointer;
 
       &:hover {
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid yellow;
       }
     }
   }

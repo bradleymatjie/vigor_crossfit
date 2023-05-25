@@ -30,7 +30,8 @@ export const Location = memo(() => {
           height="100%" 
           style={{border:0}} 
           loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade"></iframe>    
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>    
     </section>
   );
 })
