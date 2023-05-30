@@ -29,7 +29,8 @@ export const Location = memo(() => {
           width="100%" 
           height="100%" 
           style={{border:0}} 
-          loading="lazy" 
+          loading="lazy"
+          title='unique'
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>    
     </section>
