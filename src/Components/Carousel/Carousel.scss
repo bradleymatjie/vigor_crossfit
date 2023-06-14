@@ -18,7 +18,15 @@
     &_top {
       & h1 {
       font-size: 3.1em;
+      font-family: 'IBMPlexSans Bold';
+      font-style: italic;
+      color: #fff;
       margin: 0;
+      text-shadow: 1px 1px 5px 1px #252525;
+
+      @media (max-width: 480px) {
+        font-size: 2.5em;
+      }
       }
     }
 

@@ -1,5 +1,6 @@
+import '../../Util/fonts.scss';
 import './Carousel.scss';
-import { memo, useState } from 'react';
+import { useState } from 'react';
 
 import bgImage from '../../ASSETS/vigor-gym-instructors-1.jpg';
 import bgimage2 from '../../ASSETS/vigor-gym-instructors-2-bw.jpg';
@@ -7,7 +8,7 @@ import bgimage3 from '../../ASSETS/vigor-gym-instructors-3.jpg';
 import rightArrow from '../../VIGOR HOME/Icons/icn_arrow_big_R_Hover@2x.png';
 import leftArrow from '../../VIGOR HOME/Icons/icn_arrow_big_L_Default@2x.png';
 
-export const Carousel = memo(() => {
+export const Carousel = () => {
   let [count, setCount] = useState(0);
   const [team] = useState([
     {
@@ -69,4 +70,4 @@ export const Carousel = memo(() => {
       </div>
     </section>
   );
-})
+}

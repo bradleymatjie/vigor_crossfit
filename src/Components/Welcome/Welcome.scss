@@ -1,47 +1,92 @@
 .welcome {
   height: 100vh;
-  padding-left: 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
+  justify-content: center;
   align-items: center;
 
-  &-container {
-    width: 40%;
-    height: 450px;
-
-    & h1 {
-      font-size: 5em;
-      margin: 3px;
-      color: yellow;
-    }
-
-    & p {
-      font-size: 1.3em;
-      color: whitesmoke;
-    }
-
-    &_buttons {
-      width: 80%;
-      height: 50px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      & button {
-        height: 95%;
-        width: 200px;
-        background: transparent;
-        color: yellow;
-        border: 2px solid yellow;
-        font-weight: 700;
-      }
-
-      & :nth-child(1) {
-        background-color: yellow;
-        color: #252525;
-      }
-    }
+  @media (min-width: 880px) {
+    justify-content: flex-start;
+    padding-left: 80px;
   }
+}
+
+.welcome > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+
+  @media (min-width: 880px) {
+    width: 50%;
+    font-size: .8em;
+  }
+}
+
+.welcome > div h1 {
+  font-style: italic;
+  font-size: clamp(3.3rem, 10vw, 6rem);
+  color: #ffd100;
+  margin: 0;
+  font-family: 'IBMPlexSans Bold';
+}
+
+.welcome > div p {
+  font-family: 'IBMPlexSans SemiBold';
+  letter-spacing: 0;
+  line-height: 1.2;
+  color: #fff;
+
+  
+  @media (min-width: 640px) {
+    font-size: 2em;
+  }
+}
+
+.welcome_buttons {
+  height: 100px;
+  width: 100%;
+  color: black;
+
+  @media (min-width: 640px) {
+    display: flex;
+    gap: 10px;
+  }
+
+  
+  @media (min-width: 880px) {
+    width: 80%;
+    height: 120px;
+    align-self: flex-start;
+  }
+}
+
+.welcome_buttons button {
+  background: #ffd100;
+  transform: skewX(-10deg);
+  font-size: 1em;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  font-family: "IBMPlexSans Bold";
+  border: none;
+
+  
+  @media (min-width: 640px) {
+    width: 80%;
+  }
+
+  @media (min-width: 880px) {
+    height: 60px;
+  }
+}
+
+.welcome_buttons :last-child {
+  border: 4px solid #ffd100;
+  background: transparent;
+  color: #ffd100;
 }
