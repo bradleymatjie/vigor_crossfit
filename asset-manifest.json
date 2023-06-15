@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/vigor_crossfit/static/css/main.305aa200.css",
-    "main.js": "/vigor_crossfit/static/js/main.82f7a8c4.js",
+    "main.css": "/vigor_crossfit/static/css/main.8c8547a4.css",
+    "main.js": "/vigor_crossfit/static/js/main.907c55a2.js",
+    "static/media/4@2x.png": "/vigor_crossfit/static/media/4@2x.c8d0abecedbce8221d04.png",
+    "static/media/3@2x.png": "/vigor_crossfit/static/media/3@2x.9aec982e7b39cd930169.png",
+    "static/media/Special@2x.png": "/vigor_crossfit/static/media/Special@2x.6c7c9cb468a5b36953fd.png",
     "static/media/battle-ropes-1.jpg": "/vigor_crossfit/static/media/battle-ropes-1.d335ef8dadf714aaa7f2.jpg",
     "static/media/IBMPlexSans-SemiBold.otf": "/vigor_crossfit/static/media/IBMPlexSans-SemiBold.1b6248c68a77fc05fe51.otf",
     "static/media/IBMPlexSans-Bold.otf": "/vigor_crossfit/static/media/IBMPlexSans-Bold.d46bf8ec1b815258f41f.otf",
     "static/media/vigor-gym-instructors-3.jpg": "/vigor_crossfit/static/media/vigor-gym-instructors-3.cc10ff70c3c9350c67b2.jpg",
     "static/media/vigor-gym-instructors-1.jpg": "/vigor_crossfit/static/media/vigor-gym-instructors-1.d27c325d38304ac2bf16.jpg",
     "static/media/vigor-gym-instructors-2-bw.jpg": "/vigor_crossfit/static/media/vigor-gym-instructors-2-bw.f5a829d8d5ecada5a576.jpg",
+    "static/media/5.png": "/vigor_crossfit/static/media/5.5ae6ebc282dce4230d63.png",
+    "static/media/4.png": "/vigor_crossfit/static/media/4.955f7bf9cb82c369b699.png",
+    "static/media/9.png": "/vigor_crossfit/static/media/9.67726ba84aaed0f5b9e6.png",
+    "static/media/13.png": "/vigor_crossfit/static/media/13.bb3ec6ee2d1d6c735938.png",
     "static/media/icn_basket.svg": "/vigor_crossfit/static/media/icn_basket.9d73ebe89446b571f6471b8cae3ee720.svg",
     "index.html": "/vigor_crossfit/index.html",
-    "main.305aa200.css.map": "/vigor_crossfit/static/css/main.305aa200.css.map",
-    "main.82f7a8c4.js.map": "/vigor_crossfit/static/js/main.82f7a8c4.js.map"
+    "main.8c8547a4.css.map": "/vigor_crossfit/static/css/main.8c8547a4.css.map",
+    "main.907c55a2.js.map": "/vigor_crossfit/static/js/main.907c55a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.305aa200.css",
-    "static/js/main.82f7a8c4.js"
+    "static/css/main.8c8547a4.css",
+    "static/js/main.907c55a2.js"
   ]
 }
