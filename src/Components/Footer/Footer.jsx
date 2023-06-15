@@ -1,9 +1,8 @@
 import './Footer.scss';
-import { memo } from 'react';
 
 import logoSpecial from '../../VIGOR HOME/Logo/Special@2x.png';
 
-export const Footer = memo(() => {
+export const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer-logo'>
@@ -12,13 +11,12 @@ export const Footer = memo(() => {
       
       <div>
         <h3>ABOUT</h3>
-        <ul>
-          <li>Vigor Health inc.</li>
-          <li>1190 Mission st</li>
-          <li>San Francisco</li>
-          <li>CA 94103</li>
-          <li>USA</li>
-        </ul>
+        <p>
+          Vigor Health inc.
+          1190 Mission st
+          San Francisco CA 94103
+          USA
+        </p>
       </div>
 
       <div>
@@ -43,4 +41,4 @@ export const Footer = memo(() => {
       </div>
     </footer>
   );
-})
+}

@@ -1,49 +1,82 @@
 .subscribe {
-  height: 70vh;
-  background-color: yellow;
-  color: black;
+  background: #ffd100;
+  padding: 50px 5px;
+  overflow: hidden;
+}
+
+.subscribe > h1 {
+  font-size: 3.4em;
+  line-height: 1;
+  letter-spacing: -3.5px;
+  font-family: 'IBMPlexSans Bold';
+  font-style: italic;
+  color: #000;
+  text-align: center;
+}
+
+.subscribe > p {
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.3;
+  font-family: 'IBMPlexSans SemiBold';
+  color: #000;
+  padding: 0 20px;
+}
+
+.subscribe form {
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  gap: 20px;
 
-  & h1 {
-    font-size: 3.5em;
-    margin: 0;
+  @media (min-width: 880px) {
+    flex-direction: row;
+    max-width: 60%;
+    margin: 0 auto;
   }
+}
 
-  & p {
-    font-weight: 700;
+.subscribe > form input {
+  margin: 0 auto;
+  width: 85%;
+  height: 50px;
+  padding: 0 10px;
+  transform: skew(-10deg);
+  display: block;
+  border: none;
+
+  
+  @media (min-width: 880px) {
+    width: 95%;
+    height: 65px;
   }
+}
 
-  & form {
-    margin-bottom: 30px;
+.subscribe > form button {
+  width: 85%;
+  height: 50px;
+  background: transparent;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'IBMPlexSans Bold';
+  border: 2px solid #fff;
+  transform: skew(-10deg);
 
-    & input {
-      height: 50px;
-      width: 350px;
-      border: none;
-      margin-right: 20px;
-
-      &::placeholder {
-        font-size: 1.3em;
-        font-weight: 700;
-        padding-left: 20px;
-      }
-    }
-
-    & button {
-      width: 200px;
-      height: 50px;
-      border: 2px solid white;
-      background: transparent;
-      font-weight: 700;
-      color: black;
-    }
+  
+  @media (min-width: 880px) {
+    width: 50%;
+    height: 65px;
   }
+}
 
-  & span {
-    font-size: .8em;
-    font-weight: 700;
-  }
+.subscribe span {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 0.9;
+  font-family: 'IBMPlexSans SemiBold';
+  color: #000;
 }

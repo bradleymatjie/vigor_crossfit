@@ -1,5 +1,5 @@
+import '../../Util/fonts.scss';
 import './Location.scss';
-import { memo } from 'react';
 
 import img1 from '../../VIGOR HOME/Images/Gallery/5.png';
 import img2 from '../../VIGOR HOME/Images/Gallery/4.png';
@@ -7,7 +7,7 @@ import img3 from '../../VIGOR HOME/Images/Gallery/9.png';
 import img4 from '../../VIGOR HOME/Images/Gallery/13.png';
 
 
-export const Location = memo(() => {
+export const Location = () => {
 
   return (
     <section className="location">
@@ -35,4 +35,4 @@ export const Location = memo(() => {
         </iframe>    
     </section>
   );
-})
+}

@@ -1,15 +1,15 @@
+import '../../Util/fonts.scss';
 import './Ourplan.scss';
-import { memo } from 'react';
 
 import checkYellow from '../../VIGOR HOME/Icons/Checkmark/Yellow@2x.png';
 import checkOrange from '../../VIGOR HOME/Icons/Checkmark/Ember@2x.png';
 import checkRed from '../../VIGOR HOME/Icons/Checkmark/Red@2x.png';
 
-export const Ourplan = memo(() => {
+export const Ourplan = () => {
   return (
     <section className="ourplan">
       <h1>Find the right plan</h1>
-      <div>
+      <div className='ourplan-container'>
         <div>
           <h2>BEGINNER</h2>
           <ul>
@@ -17,7 +17,7 @@ export const Ourplan = memo(() => {
             <li>Stretching <img src={checkYellow} alt="checkmark" /></li>
             <li>Light training <img src={checkYellow} alt="checkmark" /></li>
           </ul>
-          <button>$200 / Month</button>
+          <button><span>$200</span></button>
         </div>
 
         <div>
@@ -29,7 +29,7 @@ export const Ourplan = memo(() => {
             <li>Food plan <img src={checkOrange} alt="checkmark" /></li>
             <li>Personal training plan <img src={checkOrange} alt="checkmark" /></li>
           </ul>
-          <button>$300 / Month</button>
+          <button><span>$300</span></button>
         </div>
         
         <div>
@@ -43,9 +43,9 @@ export const Ourplan = memo(() => {
             <li>Personal trainer <img src={checkOrange} alt="checkmark" /></li>
             <li>Competitive courses <img src={checkRed} alt="checkmark" /></li>
           </ul>
-          <button>CONTACT US</button>
+          <button><span>CONTACT US</span></button>
         </div>
       </div>
     </section>
   );
-})
+}

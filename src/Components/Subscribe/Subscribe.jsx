@@ -1,7 +1,6 @@
 import './Subscribe.scss';
-import { memo } from 'react';
 
-export const Subscribe = memo(() => {
+export const Subscribe = () => {
   return (
     <section className="subscribe">
       <h1>Subscribe to our newsletter</h1>
@@ -13,4 +12,4 @@ export const Subscribe = memo(() => {
       <span>We don't spam. I mean... Spam is in a can. Why would we put your email in a can?</span>
     </section>
   );
-})
+}
