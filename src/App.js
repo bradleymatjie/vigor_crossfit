@@ -13,10 +13,22 @@ import { MobileMenu } from './Components/MobileMenu/MobileMenu';
 
 function App() {
   const [menuToggler, setMenuToggler] = useState(false);
+  const [cart, setCart] = useState(0);
+
+  const addToCartHandler = () => {
+      setCart((prev) => {
+          return prev + 1;
+      });
+  }
+
 
   return (
     <div className="App">
-      <Header menuTogglerFunction={setMenuToggler} menuTogglerValue={menuToggler} />
+      <Header 
+        menuTogglerFunction={setMenuToggler} 
+        menuTogglerValue={menuToggler} 
+        cart={cart}
+      />
 
       {menuToggler && <MobileMenu />}
       <Welcome />
@@ -24,7 +36,7 @@ function App() {
       <Carousel />
       <Ourplan />
       <Location />
-      <Products />
+      <Products addToCartHandler={addToCartHandler} />
       <Subscribe />
       <Footer /> 
     </div>

@@ -1,10 +1,10 @@
 import { memo } from 'react';
 import './Header.scss';
 
-import cart from '../../VIGOR HOME/Icons/icn_basket.svg';
+import cartImg from '../../VIGOR HOME/Icons/icn_basket.svg';
 import logo from '../../VIGOR HOME/Logo/White.png';
 
-export const Header = memo(({ menuTogglerFunction, menuTogglerValue }) => {
+export const Header = memo(({ menuTogglerFunction, menuTogglerValue, cart }) => {
  return (
   <header className='header'>
     <div className='header-logo'>
@@ -19,7 +19,7 @@ export const Header = memo(({ menuTogglerFunction, menuTogglerValue }) => {
         <li>CONTACT</li>
         <li>BLOCK</li>
         <li>STORE</li>
-        <li><img src={cart} alt="shopping cart" /> </li>
+        <li><img src={cartImg} alt="shopping cart" /> {cart > 0 ? <span className="cart">{cart}</span> : ""}</li>
       </ul>
     </nav>
     <div 

@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  backdrop-filter: blur(85px);
   color: whitesmoke;
   position: fixed;
   left: 0;
@@ -32,6 +31,7 @@
     justify-content: center;
     align-items: center;
     padding-left: 30px;
+    position: relative;
 
     // logo image
     & > img {
@@ -120,4 +120,17 @@
 .toggle.active span:nth-child(2) {
   width: 30px;
   transform: rotate(-45deg);
+}
+
+
+.cart {
+  position: absolute;
+  bottom: 15px;
+  right: 40px;
+  padding: 3px;
+  border-radius: 10px;
+  background: orange;
+  color: #000;
+  font-size: .8em;
+  z-index: 20;
 }

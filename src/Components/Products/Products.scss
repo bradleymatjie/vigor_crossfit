@@ -65,7 +65,6 @@
   gap: 30px;
   margin-top: 30px;
 
-  
   @media (min-width: 880px) {
     flex-direction: row;
     justify-content: space-evenly;
@@ -119,6 +118,7 @@
   border: none;
   color: #000;
   font-family: "IBMPlexSans SemiBold";
+  cursor: pointer;
 }
 
 .products-right .products_prices {

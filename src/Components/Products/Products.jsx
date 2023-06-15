@@ -1,10 +1,15 @@
+import { useState } from 'react';
 import '../../Util/fonts.scss';
 import './Products.scss';
 
 import firstImage from '../../VIGOR HOME/Images/Home/3@2x.png';
 import secondImage from '../../VIGOR HOME/Images/Home/4@2x.png';
 
-export const Products = () => {
+export const Products = ({ addToCartHandler }) => {
+
+  const [buyBtn, setBuyBtn] = useState(false);
+  const [buyBtn2, setBuyBtn2] = useState(false);
+
   return (
     <section className='products'>
       <div className='products-left'>
@@ -26,7 +31,10 @@ export const Products = () => {
               <p>Lift Heavy t-shirt</p>
               <p>$19.95</p>
             </div>
-            <button>BUY NOW</button>
+            <button onClick={() => {
+              addToCartHandler();
+              setBuyBtn(prev => true);
+            }}>{buyBtn ? 'GO TO CART' : 'BUY NOW'}</button>
           </div>
         </div>
         
@@ -36,7 +44,10 @@ export const Products = () => {
               <p>Cross Shorts WMNS</p>
               <p>$25.95</p>
             </div>
-            <button>BUY NOW</button>
+            <button onClick={() => {
+              addToCartHandler();
+              setBuyBtn2(prev => true);
+            }}>{buyBtn2 ? 'GO TO CART' : 'BUY NOW'}</button>
           </div>
         </div>
       </div>
