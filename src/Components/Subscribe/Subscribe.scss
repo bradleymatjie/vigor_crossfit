@@ -80,3 +80,23 @@
   font-family: 'IBMPlexSans SemiBold';
   color: #000;
 }
+
+.submitted {
+  color: #333;
+  font-size: 16px;
+  font-family: "IBMPlexSans";
+  width: 100%;
+  text-align: center;
+  border: 1px solid green;
+  padding: 35px 50px;
+  background-color: rgb(154, 255, 182);
+
+  @media (max-width: 500px) {
+    width: 60%;
+    padding: 25px 30px;
+  }
+
+  @media (max-width: 880px) {
+    width: 80%;
+  }
+}

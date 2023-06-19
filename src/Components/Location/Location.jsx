@@ -31,7 +31,7 @@ export const Location = () => {
           style={{border:0}} 
           loading="lazy"
           title='unique'
-          referrerpolicy="no-referrer-when-downgrade">
+          referrerPolicy="no-referrer-when-downgrade">
         </iframe>    
     </section>
   );
