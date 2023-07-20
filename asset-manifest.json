@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vigor_crossfit/static/css/main.81ea7d68.css",
+    "main.css": "/vigor_crossfit/static/css/main.c8a61dd3.css",
     "main.js": "/vigor_crossfit/static/js/main.01129d03.js",
     "static/media/4@2x.png": "/vigor_crossfit/static/media/4@2x.c8d0abecedbce8221d04.png",
     "static/media/3@2x.png": "/vigor_crossfit/static/media/3@2x.9aec982e7b39cd930169.png",
@@ -17,11 +17,11 @@
     "static/media/13.png": "/vigor_crossfit/static/media/13.bb3ec6ee2d1d6c735938.png",
     "static/media/icn_basket.svg": "/vigor_crossfit/static/media/icn_basket.d322b48678285478f0fcfb6bbcfd5d77.svg",
     "index.html": "/vigor_crossfit/index.html",
-    "main.81ea7d68.css.map": "/vigor_crossfit/static/css/main.81ea7d68.css.map",
+    "main.c8a61dd3.css.map": "/vigor_crossfit/static/css/main.c8a61dd3.css.map",
     "main.01129d03.js.map": "/vigor_crossfit/static/js/main.01129d03.js.map"
   },
   "entrypoints": [
-    "static/css/main.81ea7d68.css",
+    "static/css/main.c8a61dd3.css",
     "static/js/main.01129d03.js"
   ]
 }
